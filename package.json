@@ -9,6 +9,7 @@
   "dependencies": {
     "bdsft-sdk-utils": "BroadSoft-Xtended/Library-SDK-Utils.git",
     "event-emitter": "^0.3.4",
+    "js-cookie": "^2.0.3",
     "observe-js": "^0.4.2"
   },
   "devDependencies": {
