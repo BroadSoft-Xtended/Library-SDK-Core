@@ -1,0 +1,3 @@
+## Analyze Code ##################################################################
+analyze:
+	jscs . --fix --config=node_modules/Library-SDK-Core/.jscsrc && jshint . --config=node_modules/Library-SDK-Core/.jshintrc --exclude-path=node_modules/Library-SDK-Core/.jshintignore --verbose

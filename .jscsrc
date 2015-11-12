@@ -1,0 +1,40 @@
+{
+    "excludeFiles": ["node_modules/**", "js/*"],
+    "requireCurlyBraces": [
+        "if",
+        "else",
+        "for",
+        "while",
+        "do",
+        "try",
+        "catch"
+    ],
+    "requireOperatorBeforeLineBreak": true,
+    "disallowMultipleLineStrings": true,
+    "disallowMixedSpacesAndTabs": true,
+    "disallowSpaceAfterPrefixUnaryOperators": true,
+    "disallowMultipleVarDecl": null,
+    "requireSpaceBeforeBinaryOperators": [
+        "=", "+=", "-=", "*=", "/=", "%=", "<<=", ">>=", ">>>=",
+        "&=", "|=", "^=", "+=",
+        "+", "-", "*", "/", "%", "<<", ">>", ">>>", "&",
+        "|", "^", "&&", "||", "===", "==", ">=",
+        "<=", "<", ">", "!=", "!=="
+    ],
+    "requireSpaceAfterBinaryOperators": true,
+    "requireSpacesInConditionalExpression": true,
+    "disallowSpacesInsideObjectBrackets": "all",
+    "disallowSpacesInsideArrayBrackets": "all",
+    "disallowSpacesInsideParentheses": true,
+    "disallowMultipleLineBreaks": true,
+    "disallowCommaBeforeLineBreak": null,
+    "disallowDanglingUnderscores": null,
+    "disallowEmptyBlocks": null,
+    "requireCapitalizedConstructors": null,
+    "requireCommaBeforeLineBreak": true,
+    "requireDotNotation": true,
+    "requireParenthesesAroundIIFE": true,
+    "validateIndentation": 2,
+    "disallowAnonymousFunctions": null,
+    "requireMultipleVarDecl": null
+}
