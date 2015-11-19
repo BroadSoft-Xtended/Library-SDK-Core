@@ -1,3 +1,3 @@
 ## Analyze Code ##################################################################
 analyze:
-	jscs . --fix --config=node_modules/bdsft-sdk-core/.jscsrc && find . -type f -name "*.js" | grep -v node_modules | grep -v "js/" | grep -v "test" | grep -v "dist/" xargs jshint --config=node_modules/bdsft-sdk-core/.jshintrc
+	jscs . --fix --config=node_modules/bdsft-sdk-core/.jscsrc && find . -type f -name "*.js" | grep -v node_modules | grep -v "js/" | grep -v "test" | grep -v "dist/" | xargs jshint --config=node_modules/bdsft-sdk-core/.jshintrc
