@@ -1,5 +1,5 @@
 {
-    "excludeFiles": ["node_modules/**", "js/*"],
+    "excludeFiles": ["node_modules/**", "js/*", "test/*", "dist/*"],
     "requireCurlyBraces": [
         "if",
         "else",
