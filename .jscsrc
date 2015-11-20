@@ -1,8 +1,8 @@
 {
-    "excludeFiles": ["node_modules/**", "js/*", "test/*", "dist/*", 
-                    "app/apps/*", "apps/public/*",
-                    "notifications/notifications/*", "notifications/public/*",
-                    "contextual/contextual/*", "contextual/public/*"],
+ "excludeFiles": ["node_modules/**", "js/*", "test/*", "dist/*",
+                    "apps/*", "public/*",
+                    "notifications/*",
+                    "contextual/*"],
     "requireCurlyBraces": [
         "if",
         "else",
